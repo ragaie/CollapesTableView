@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47F1CA1F914FD0C6C9C78743 /* Pods_testClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB44044A4ABF73B4497DB01 /* Pods_testClosure.framework */; };
+		81AA59EB2003880600CC3CDA /* CollapseTableChtarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA59EA2003880600CC3CDA /* CollapseTableChtarView.swift */; };
+		81AA59ED20038A6700CC3CDA /*  UIGestureRecognizer+SubClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA59EC20038A6700CC3CDA /*  UIGestureRecognizer+SubClass.swift */; };
+		81AA59F02003AEA600CC3CDA /* TestCollapseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA59EF2003AEA600CC3CDA /* TestCollapseViewController.swift */; };
 		81C44B0E1FFBC53800DF3AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C44B0D1FFBC53800DF3AB3 /* AppDelegate.swift */; };
 		81C44B101FFBC53800DF3AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C44B0F1FFBC53800DF3AB3 /* ViewController.swift */; };
 		81C44B131FFBC53800DF3AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C44B111FFBC53800DF3AB3 /* Main.storyboard */; };
 		81C44B161FFBC53800DF3AB3 /* testClosure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81C44B141FFBC53800DF3AB3 /* testClosure.xcdatamodeld */; };
 		81C44B181FFBC53800DF3AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C44B171FFBC53800DF3AB3 /* Assets.xcassets */; };
 		81C44B1B1FFBC53800DF3AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C44B191FFBC53800DF3AB3 /* LaunchScreen.storyboard */; };
+		81D22BF71FFD193000260A28 /* CollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D22BF61FFD193000260A28 /* CollapseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81C44B0A1FFBC53800DF3AB3 /* testClosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testClosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1DC749C2FE542E64F440E7 /* Pods-testClosure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testClosure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testClosure/Pods-testClosure.debug.xcconfig"; sourceTree = "<group>"; };
+		81AA59EA2003880600CC3CDA /* CollapseTableChtarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseTableChtarView.swift; sourceTree = "<group>"; };
+		81AA59EC20038A6700CC3CDA /*  UIGestureRecognizer+SubClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIGestureRecognizer+SubClass.swift"; sourceTree = "<group>"; };
+		81AA59EF2003AEA600CC3CDA /* TestCollapseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollapseViewController.swift; sourceTree = "<group>"; };
+		81C44B0A1FFBC53800DF3AB3 /* CollapesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C44B0D1FFBC53800DF3AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81C44B0F1FFBC53800DF3AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81C44B121FFBC53800DF3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		81C44B171FFBC53800DF3AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C44B1A1FFBC53800DF3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81C44B1C1FFBC53800DF3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D22BF61FFD193000260A28 /* CollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseView.swift; sourceTree = "<group>"; };
+		EAB26A43E4960FA1743E74D7 /* Pods-testClosure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testClosure.release.xcconfig"; path = "Pods/Target Support Files/Pods-testClosure/Pods-testClosure.release.xcconfig"; sourceTree = "<group>"; };
+		FBB44044A4ABF73B4497DB01 /* Pods_testClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +43,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F1CA1F914FD0C6C9C78743 /* Pods_testClosure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4049B890E6B6C12A5632BE0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB44044A4ABF73B4497DB01 /* Pods_testClosure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81C44B011FFBC53800DF3AB3 = {
 			isa = PBXGroup;
 			children = (
 				81C44B0C1FFBC53800DF3AB3 /* testClosure */,
 				81C44B0B1FFBC53800DF3AB3 /* Products */,
+				DDF79BE3E5383F4BB55A61C6 /* Pods */,
+				4049B890E6B6C12A5632BE0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		81C44B0B1FFBC53800DF3AB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81C44B0A1FFBC53800DF3AB3 /* testClosure.app */,
+				81C44B0A1FFBC53800DF3AB3 /* CollapesTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,35 +79,59 @@
 		81C44B0C1FFBC53800DF3AB3 /* testClosure */ = {
 			isa = PBXGroup;
 			children = (
-				81C44B0D1FFBC53800DF3AB3 /* AppDelegate.swift */,
+				81D22BF61FFD193000260A28 /* CollapseView.swift */,
 				81C44B0F1FFBC53800DF3AB3 /* ViewController.swift */,
+				81D22BF51FFD18DF00260A28 /* collapse TableView */,
+				81C44B0D1FFBC53800DF3AB3 /* AppDelegate.swift */,
 				81C44B111FFBC53800DF3AB3 /* Main.storyboard */,
 				81C44B171FFBC53800DF3AB3 /* Assets.xcassets */,
 				81C44B191FFBC53800DF3AB3 /* LaunchScreen.storyboard */,
 				81C44B1C1FFBC53800DF3AB3 /* Info.plist */,
 				81C44B141FFBC53800DF3AB3 /* testClosure.xcdatamodeld */,
+				81AA59EF2003AEA600CC3CDA /* TestCollapseViewController.swift */,
 			);
 			path = testClosure;
+			sourceTree = "<group>";
+		};
+		81D22BF51FFD18DF00260A28 /* collapse TableView */ = {
+			isa = PBXGroup;
+			children = (
+				81AA59EC20038A6700CC3CDA /*  UIGestureRecognizer+SubClass.swift */,
+				81AA59EA2003880600CC3CDA /* CollapseTableChtarView.swift */,
+			);
+			path = "collapse TableView";
+			sourceTree = "<group>";
+		};
+		DDF79BE3E5383F4BB55A61C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1DC749C2FE542E64F440E7 /* Pods-testClosure.debug.xcconfig */,
+				EAB26A43E4960FA1743E74D7 /* Pods-testClosure.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81C44B091FFBC53800DF3AB3 /* testClosure */ = {
+		81C44B091FFBC53800DF3AB3 /* CollapesTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81C44B1F1FFBC53800DF3AB3 /* Build configuration list for PBXNativeTarget "testClosure" */;
+			buildConfigurationList = 81C44B1F1FFBC53800DF3AB3 /* Build configuration list for PBXNativeTarget "CollapesTableView" */;
 			buildPhases = (
+				D3F765F9B24859C5FB9A2C59 /* [CP] Check Pods Manifest.lock */,
 				81C44B061FFBC53800DF3AB3 /* Sources */,
 				81C44B071FFBC53800DF3AB3 /* Frameworks */,
 				81C44B081FFBC53800DF3AB3 /* Resources */,
+				56D9969D9060C2B0834B6CBA /* [CP] Embed Pods Frameworks */,
+				A0456F4057FF3D75FDCB4BB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = testClosure;
+			name = CollapesTableView;
 			productName = testClosure;
-			productReference = 81C44B0A1FFBC53800DF3AB3 /* testClosure.app */;
+			productReference = 81C44B0A1FFBC53800DF3AB3 /* CollapesTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81C44B051FFBC53800DF3AB3 /* Build configuration list for PBXProject "testClosure" */;
+			buildConfigurationList = 81C44B051FFBC53800DF3AB3 /* Build configuration list for PBXProject "CollapesTableView" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81C44B091FFBC53800DF3AB3 /* testClosure */,
+				81C44B091FFBC53800DF3AB3 /* CollapesTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -134,14 +181,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56D9969D9060C2B0834B6CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testClosure/Pods-testClosure-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testClosure/Pods-testClosure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0456F4057FF3D75FDCB4BB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testClosure/Pods-testClosure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F765F9B24859C5FB9A2C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testClosure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81C44B061FFBC53800DF3AB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AA59ED20038A6700CC3CDA /*  UIGestureRecognizer+SubClass.swift in Sources */,
 				81C44B101FFBC53800DF3AB3 /* ViewController.swift in Sources */,
+				81AA59EB2003880600CC3CDA /* CollapseTableChtarView.swift in Sources */,
 				81C44B0E1FFBC53800DF3AB3 /* AppDelegate.swift in Sources */,
 				81C44B161FFBC53800DF3AB3 /* testClosure.xcdatamodeld in Sources */,
+				81AA59F02003AEA600CC3CDA /* TestCollapseViewController.swift in Sources */,
+				81D22BF71FFD193000260A28 /* CollapseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -276,10 +381,13 @@
 		};
 		81C44B201FFBC53800DF3AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1DC749C2FE542E64F440E7 /* Pods-testClosure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = testClosure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.testClosure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,10 +398,13 @@
 		};
 		81C44B211FFBC53800DF3AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB26A43E4960FA1743E74D7 /* Pods-testClosure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = testClosure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.testClosure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81C44B051FFBC53800DF3AB3 /* Build configuration list for PBXProject "testClosure" */ = {
+		81C44B051FFBC53800DF3AB3 /* Build configuration list for PBXProject "CollapesTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C44B1D1FFBC53800DF3AB3 /* Debug */,
@@ -314,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81C44B1F1FFBC53800DF3AB3 /* Build configuration list for PBXNativeTarget "testClosure" */ = {
+		81C44B1F1FFBC53800DF3AB3 /* Build configuration list for PBXNativeTarget "CollapesTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C44B201FFBC53800DF3AB3 /* Debug */,
